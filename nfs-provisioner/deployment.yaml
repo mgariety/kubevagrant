@@ -31,9 +31,9 @@ spec:
             - name: NFS_SERVER
               value: 172.16.16.110
             - name: NFS_PATH
-              value: /data/nfs
+              value: /data
       volumes:
         - name: nfs-client-root
           nfs:
             server: 172.16.16.110
-            path: /data/nfs
+            path: /data
